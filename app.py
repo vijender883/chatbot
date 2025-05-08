@@ -23,7 +23,7 @@ with st.sidebar:
     st.header("Configuration")
     
     # API Keys and URLs
-    gemini_api_key = st.text_input("Gemini API Key", value="AIzaSyDac3ErGRRmzdD8_A3FlBtpiN4hnhI_3oQ", type="password")
+    gemini_api_key = st.text_input("Gemini API Key", value="", type="password")
     llm_server_url = st.text_input("Local LLM Server URL", value="http://216.48.177.244:8001")
     
     # Output configuration
